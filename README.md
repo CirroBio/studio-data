@@ -31,8 +31,6 @@ collections/<collection>/
 uv tool install git+https://github.com/CirroBio/studio-data
 ```
 
-The repository is private, so this needs your GitHub access (for example `gh auth setup-git`).
-
 Publishing to the bucket uses your AWS credentials (the usual `AWS_PROFILE` and friends). Until the bucket is set in `src/studio_data/collections.toml`, publish to a local folder with `--to FOLDER`. That folder has the bucket's layout, so an app's dev data URL can serve it.
 
 ## An item folder
@@ -108,7 +106,7 @@ const samplesheet = itemUrl(release, release.items[0], "datasets/<dataset>/data/
 const genes = referenceUrl(release, "genes-hsapiens");
 ```
 
-Install it pinned to a commit: `npm install github:CirroBio/studio-data#<commit>` (npm builds it on install). Because the repository is private, a build that installs it, a GitHub Actions deploy included, needs a token that can read it.
+Install it pinned to a commit: `npm install github:CirroBio/studio-data#<commit>` (npm builds it on install).
 
 ## Development
 
