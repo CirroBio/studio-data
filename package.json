@@ -2,6 +2,7 @@
   "name": "@cirrobio/studio-data",
   "version": "0.1.0",
   "description": "Read the Cirro studios' public data collections published by studio-data",
+  "license": "SEE LICENSE IN LICENSE.md",
   "type": "module",
   "main": "reader/dist/index.js",
   "types": "reader/dist/index.d.ts",

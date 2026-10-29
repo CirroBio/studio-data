@@ -3,6 +3,8 @@ name = "studio-data"
 version = "0.1.0"
 description = "Publish and read the public example data of the Cirro studios"
 requires-python = ">=3.11"
+license = { file = "LICENSE.md" }
+classifiers = ["License :: Other/Proprietary License"]
 dependencies = ["boto3>=1.36"]
 
 [project.optional-dependencies]

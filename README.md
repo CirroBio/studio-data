@@ -115,3 +115,10 @@ uv venv --python 3.12 && uv pip install -e '.[test]'
 .venv/bin/python -m pytest      # the tool, against a local folder and moto's S3
 npm install && npm test         # the reader
 ```
+
+## License
+
+Source available under the Cirro Bio Source Available License — see
+[LICENSE.md](LICENSE.md). Viewing the source and preparing contributions is
+permitted by default; any other use requires written authorization from
+Cirro Bio, Inc.
