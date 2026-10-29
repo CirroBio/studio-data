@@ -1,0 +1,17 @@
+{
+  "name": "@cirrobio/studio-data",
+  "version": "0.1.0",
+  "description": "Read the Cirro studios' public data collections published by studio-data",
+  "type": "module",
+  "main": "reader/dist/index.js",
+  "types": "reader/dist/index.d.ts",
+  "files": ["reader/dist"],
+  "scripts": {
+    "build": "tsc -p reader",
+    "prepare": "tsc -p reader",
+    "test": "tsc -p reader && node --test reader/test/*.test.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.4"
+  }
+}

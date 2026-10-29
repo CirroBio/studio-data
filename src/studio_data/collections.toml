@@ -1,0 +1,35 @@
+# The bucket and the collections studio-data publishes to. Changing this file is a release of the tool.
+
+[bucket]
+# Not known yet. Until it is, publish to a local folder with --to.
+name = ""
+region = ""
+# The address apps read the bucket at, such as a CloudFront domain; empty means the bucket's own.
+public_url = ""
+
+[collections.expression]
+title = "Expression Studio public data"
+
+[collections.microbiome]
+title = "Microbiome Studio public data"
+
+[collections.singlecell]
+title = "Single Cell Studio public data"
+
+[collections.flow]
+title = "Flow Cytometry Studio public data"
+
+[collections.crispr]
+title = "CRISPR Screen Studio public data"
+
+[collections.multiomics]
+title = "Multi-omics Studio public data"
+
+[collections.spatial]
+title = "Spatial Data Studio examples"
+# Uncomment once the web app publishes formats.json:
+# format_field = "sidecarVersion"
+# formats_url = "https://cirrobio.github.io/spatial-data-studio/formats.json"
+
+[collections.slides]
+title = "Slide Studio examples"
